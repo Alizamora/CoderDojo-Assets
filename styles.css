@@ -68,6 +68,7 @@ nav ul li a {
 }
 
 .backg-img {
+    padding: 0 3px;
     width: 250px;
 }
 
@@ -135,7 +136,8 @@ nav ul li a {
     width: 1200px;
 }
 
-@media (max-width: 360px) {
+/*Tablet styles*/
+@media (max-width: 768px) {
     nav {
         padding: 50px 25px;
     }
@@ -151,13 +153,8 @@ nav ul li a {
     }
 
     .background-grey {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .backg-img {
-        padding: 5px;
-        width: 100%;
+        display: inline-block;
+        width: 95%;
     }
 
     .icons-wrapper,
@@ -167,11 +164,30 @@ nav ul li a {
     }
 
     .img-icon {
-        padding: 25px 0;
+        padding: 10px 25px;
     }
 
     .wrapper {
         width: 100%;
         margin: 0;
+    }
+}
+
+/*Mobile Styles*/
+@media (max-width: 360px) {
+    .background-grey {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .backg-img {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .img-icon {
+        padding: 25px 0;
     }
 }
