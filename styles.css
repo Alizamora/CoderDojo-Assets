@@ -134,3 +134,44 @@ nav ul li a {
     margin: 100px auto;
     width: 1200px;
 }
+
+@media (max-width: 360px) {
+    nav {
+        padding: 50px 25px;
+    }
+
+    nav ul {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        padding: 15px 0;
+    }
+
+    .background-grey {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .backg-img {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .icons-wrapper,
+    .backgrounds,
+    .examples {
+        padding: 0 25px;
+    }
+
+    .img-icon {
+        padding: 25px 0;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0;
+    }
+}
