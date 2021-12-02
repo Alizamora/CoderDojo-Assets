@@ -81,7 +81,7 @@ nav ul li :hover {
 }
 
 .header-banner {
-    background-image: url('/Assets/home/background-home.png');
+    background-image: url('Assets/home/background-home.png');
     background-size: cover;
     min-height: 239px;
     padding: 83px 15px 62px;
