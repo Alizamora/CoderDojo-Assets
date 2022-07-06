@@ -124,7 +124,7 @@ nav ul li a {
 
 .history-example {
     align-items: center;
-    background-image: url(Assets/Backgrounds/Backgrounds-stars/image-4.png);
+    background-image: url(./Assets/Backgrounds/Backgrounds-stars/image-4.png);
     background-repeat: no-repeat;
     border-radius: 15px;
     display: flex;
