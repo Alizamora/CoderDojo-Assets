@@ -208,6 +208,10 @@ nav ul li a {
         width: 95%;
     }
 
+    .history-container {
+        display: block;
+    }
+
     .icons-wrapper,
     .backgrounds,
     .examples {
@@ -236,6 +240,10 @@ nav ul li a {
     .backg-img {
         padding: 5px;
         width: 100%;
+    }
+
+    .history-container {
+        display: block;
     }
 
     .img-icon {
